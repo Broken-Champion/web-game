@@ -1,5 +1,5 @@
 const cube = document.querySelector('.cube');
-const radioGroup = document.querySelector('.radio-group');
+const radioGroup = document.getElementById('selector');
 let currentClass = '';
 
 function changeSide() {
