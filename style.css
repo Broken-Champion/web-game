@@ -1,8 +1,3 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     margin: 0px;
     height: 100%;
@@ -10,7 +5,7 @@ body {
     background-color: black;
 }
 
-@keyframes example {
+/* @keyframes example {
     30% {transform: rotate(90deg);}
     50% {transform: rotate(180deg);}
     70% {transform: rotate(270deg);}
@@ -30,13 +25,14 @@ body {
     100% {transform: rotate(-360deg);
         top: 50%;
         left: 50%;}
-}
+} */
 
 #gameFrame {
     position: relative;
     height: 500px;
     width: 500px;
     top: 120px;
+    padding: 1%;
     left: 500px;
     background-color: white;
     animation: example infinite;
@@ -47,8 +43,6 @@ body {
 #gameObject {
     height: 50%;
     width: 50%;
-    top: 50px;
-    left: 50px;
     background-color: red;
     animation: cure infinite;
     animation-duration: 50ms;
